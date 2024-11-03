@@ -6665,12 +6665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalwxt/wxt.git",
-                "reference": "d511bc323776ab264a9065f64002a36a6f771ae6"
+                "reference": "81d079bae26b5d1a320e6b69e2c98ef9c0f48b6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalwxt/wxt/zipball/d511bc323776ab264a9065f64002a36a6f771ae6",
-                "reference": "d511bc323776ab264a9065f64002a36a6f771ae6",
+                "url": "https://api.github.com/repos/drupalwxt/wxt/zipball/81d079bae26b5d1a320e6b69e2c98ef9c0f48b6c",
+                "reference": "81d079bae26b5d1a320e6b69e2c98ef9c0f48b6c",
                 "shasum": ""
             },
             "require": {
@@ -6751,8 +6751,8 @@
                 "drupal/views_infinite_scroll": "^2.0",
                 "drupal/webform": "^6.2.0-beta5",
                 "drupal/webform_migrate": "2.0.x-dev",
-                "drupal/wxt_bootstrap": "8.x",
-                "drupal/wxt_library": "8.x",
+                "drupal/wxt_bootstrap": "8.5",
+                "drupal/wxt_library": "8.3",
                 "ext-dom": "*",
                 "npm-asset/dropzone": "^5.7.4",
                 "phpdocumentor/reflection-docblock": "^5",
@@ -6904,7 +6904,7 @@
                 "issues": "https://github.com/drupalwxt/wxt/issues",
                 "source": "https://github.com/drupalwxt/wxt/tree/5.3.x"
             },
-            "time": "2024-11-03T18:18:14+00:00"
+            "time": "2024-11-03T22:02:57+00:00"
         },
         {
             "name": "egulias/email-validator",
