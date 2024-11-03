@@ -4977,20 +4977,20 @@
         },
         {
             "name": "drupal/paragraphs",
-            "version": "1.18.0",
+            "version": "1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/paragraphs.git",
-                "reference": "8.x-1.18"
+                "reference": "8.x-1.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.18.zip",
-                "reference": "8.x-1.18",
-                "shasum": "594e2937ea5c95fc88b60420590c4d83f5cd71ee"
+                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.17.zip",
+                "reference": "8.x-1.17",
+                "shasum": "81c05f6a1eb59ab957c9ac97b2e79d6c9837bd72"
             },
             "require": {
-                "drupal/core": "^10.2 || ^11",
+                "drupal/core": "^9.3 || ^10",
                 "drupal/entity_reference_revisions": "~1.3"
             },
             "require-dev": {
@@ -4998,7 +4998,6 @@
                 "drupal/diff": "1.x-dev",
                 "drupal/entity_browser": "2.x-dev",
                 "drupal/entity_usage": "2.x-dev",
-                "drupal/feeds": "^3",
                 "drupal/field_group": "3.x-dev",
                 "drupal/inline_entity_form": "1.x-dev",
                 "drupal/paragraphs-paragraphs_library": "*",
@@ -5012,8 +5011,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.18",
-                    "datestamp": "1723029144",
+                    "version": "8.x-1.17",
+                    "datestamp": "1709804220",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6666,12 +6665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalwxt/wxt.git",
-                "reference": "551f4fcc342248436ec13f2b28cd8f4f8deb4b86"
+                "reference": "2bd355cdb77deb882f32a831600c60db34d376f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalwxt/wxt/zipball/551f4fcc342248436ec13f2b28cd8f4f8deb4b86",
-                "reference": "551f4fcc342248436ec13f2b28cd8f4f8deb4b86",
+                "url": "https://api.github.com/repos/drupalwxt/wxt/zipball/2bd355cdb77deb882f32a831600c60db34d376f4",
+                "reference": "2bd355cdb77deb882f32a831600c60db34d376f4",
                 "shasum": ""
             },
             "require": {
@@ -6733,7 +6732,7 @@
                 "drupal/migrate_tools": "^6.0",
                 "drupal/page_manager": "4.0-rc2",
                 "drupal/panels": "^4.8",
-                "drupal/paragraphs": "^1.15",
+                "drupal/paragraphs": "1.17",
                 "drupal/password_policy": "^4.0",
                 "drupal/pathauto": "^1.12",
                 "drupal/redirect": "^1.5",
@@ -6768,6 +6767,7 @@
                 "phpspec/prophecy-phpunit": "^2",
                 "squizlabs/php_codesniffer": "3.*"
             },
+            "default-branch": true,
             "type": "drupal-profile",
             "extra": {
                 "drupal-scaffold": {
@@ -6863,7 +6863,8 @@
                         "3411037 - Fix core removing contextual translation links": "https://git.drupalcode.org/project/layout_builder_st/-/merge_requests/5.patch"
                     },
                     "drupal/linkit": {
-                        "Detect and strip base URL from pasted URLs to increase matching hits": "https://www.drupal.org/files/issues/2023-11-02/linkit6x-3078075-77.patch"
+                        "Detect and strip base URL from pasted URLs to increase matching hits": "https://www.drupal.org/files/issues/2023-11-02/linkit6x-3078075-77.patch",
+                        "Enter drupal/linkit patch #3457958 description here": "https://www.drupal.org/files/issues/2024-06-28/linkit--testing-static-methods--3457958.patch"
                     },
                     "drupal/page_manager": {
                         "Enter drupal/page_manager patch #2626090 description here": "https://www.drupal.org/files/issues/page-manager-2626090-page-title-empty-5.patch",
@@ -6900,7 +6901,7 @@
                 "issues": "https://github.com/drupalwxt/wxt/issues",
                 "source": "https://github.com/drupalwxt/wxt/tree/5.3.x"
             },
-            "time": "2024-11-03T15:35:20+00:00"
+            "time": "2024-11-03T18:07:32+00:00"
         },
         {
             "name": "egulias/email-validator",
