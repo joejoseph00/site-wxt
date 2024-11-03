@@ -6665,12 +6665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalwxt/wxt.git",
-                "reference": "2bd355cdb77deb882f32a831600c60db34d376f4"
+                "reference": "d511bc323776ab264a9065f64002a36a6f771ae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalwxt/wxt/zipball/2bd355cdb77deb882f32a831600c60db34d376f4",
-                "reference": "2bd355cdb77deb882f32a831600c60db34d376f4",
+                "url": "https://api.github.com/repos/drupalwxt/wxt/zipball/d511bc323776ab264a9065f64002a36a6f771ae6",
+                "reference": "d511bc323776ab264a9065f64002a36a6f771ae6",
                 "shasum": ""
             },
             "require": {
@@ -6849,6 +6849,9 @@
                         "Enter drupal/diff patch #3169729 description here": "https://www.drupal.org/files/issues/2020-09-08/diff_add-local-tasks-3169729-2.patch",
                         "Enter drupal/diff patch #3228798 description here": "https://www.drupal.org/files/issues/2024-05-14/diff-3228798-17.patch"
                     },
+                    "drupal/entity_embed": {
+                        "3481413 - Fix PHP error": "https://www.drupal.org/files/issues/2024-10-17/entity_embed-3481413.patch"
+                    },
                     "drupal/entity_browser": {
                         "2914385 - Fix PHP error": "https://www.drupal.org/files/issues/2023-10-10/2914385-25.patch"
                     },
@@ -6901,7 +6904,7 @@
                 "issues": "https://github.com/drupalwxt/wxt/issues",
                 "source": "https://github.com/drupalwxt/wxt/tree/5.3.x"
             },
-            "time": "2024-11-03T18:07:32+00:00"
+            "time": "2024-11-03T18:18:14+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -8230,23 +8233,23 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.8.2",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "153ae662783729388a584b4361f2545e4d841e3c"
+                "reference": "1fb5ba8d045f5dd984ebded5b1cc66f29459422d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/153ae662783729388a584b4361f2545e4d841e3c",
-                "reference": "153ae662783729388a584b4361f2545e4d841e3c",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/1fb5ba8d045f5dd984ebded5b1cc66f29459422d",
+                "reference": "1fb5ba8d045f5dd984ebded5b1cc66f29459422d",
                 "shasum": ""
             },
             "require": {
                 "doctrine/deprecations": "^1.0",
                 "php": "^7.3 || ^8.0",
                 "phpdocumentor/reflection-common": "^2.0",
-                "phpstan/phpdoc-parser": "^1.13"
+                "phpstan/phpdoc-parser": "^1.18"
             },
             "require-dev": {
                 "ext-tokenizer": "*",
@@ -8282,9 +8285,9 @@
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.8.2"
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.9.0"
             },
-            "time": "2024-02-23T11:10:43+00:00"
+            "time": "2024-11-03T20:11:34+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
