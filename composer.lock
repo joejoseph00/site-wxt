@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "773f04994bb6b574438f247f7a8e7a97",
+    "content-hash": "4f3dfdf12e1c13f33405ee99ccac97ce",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6661,16 +6661,16 @@
         },
         {
             "name": "drupalwxt/wxt",
-            "version": "5.3.x-dev",
+            "version": "5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalwxt/wxt.git",
-                "reference": "ac03fc27d49adfde6c21a7571cfa9d7622754951"
+                "reference": "316156feaf32eb41a77c3d2fb0021240f897dcdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalwxt/wxt/zipball/ac03fc27d49adfde6c21a7571cfa9d7622754951",
-                "reference": "ac03fc27d49adfde6c21a7571cfa9d7622754951",
+                "url": "https://api.github.com/repos/drupalwxt/wxt/zipball/316156feaf32eb41a77c3d2fb0021240f897dcdf",
+                "reference": "316156feaf32eb41a77c3d2fb0021240f897dcdf",
                 "shasum": ""
             },
             "require": {
@@ -6767,7 +6767,6 @@
                 "phpspec/prophecy-phpunit": "^2",
                 "squizlabs/php_codesniffer": "3.*"
             },
-            "default-branch": true,
             "type": "drupal-profile",
             "extra": {
                 "drupal-scaffold": {
@@ -6902,9 +6901,9 @@
             "description": "Project template for Drupal 10 sites built with the WxT distribution.",
             "support": {
                 "issues": "https://github.com/drupalwxt/wxt/issues",
-                "source": "https://github.com/drupalwxt/wxt/tree/5.3.x"
+                "source": "https://github.com/drupalwxt/wxt/tree/5.3.0"
             },
-            "time": "2024-11-03T22:24:41+00:00"
+            "time": "2024-11-04T01:09:26+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -18300,34 +18299,34 @@
         },
         {
             "name": "symfony/config",
-            "version": "v7.0.8",
+            "version": "v6.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "f8a8fb0c2d0a188a00a2dd5af8a4eb070641ec60"
+                "reference": "5ed4195a81d2352e0e4ce24e5f7e26fc794e7597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/f8a8fb0c2d0a188a00a2dd5af8a4eb070641ec60",
-                "reference": "f8a8fb0c2d0a188a00a2dd5af8a4eb070641ec60",
+                "url": "https://api.github.com/repos/symfony/config/zipball/5ed4195a81d2352e0e4ce24e5f7e26fc794e7597",
+                "reference": "5ed4195a81d2352e0e4ce24e5f7e26fc794e7597",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
+                "php": ">=8.1",
                 "symfony/deprecation-contracts": "^2.5|^3",
-                "symfony/filesystem": "^6.4|^7.0",
+                "symfony/filesystem": "^5.4|^6.0|^7.0",
                 "symfony/polyfill-ctype": "~1.8"
             },
             "conflict": {
-                "symfony/finder": "<6.4",
+                "symfony/finder": "<5.4",
                 "symfony/service-contracts": "<2.5"
             },
             "require-dev": {
-                "symfony/event-dispatcher": "^6.4|^7.0",
-                "symfony/finder": "^6.4|^7.0",
-                "symfony/messenger": "^6.4|^7.0",
+                "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
+                "symfony/finder": "^5.4|^6.0|^7.0",
+                "symfony/messenger": "^5.4|^6.0|^7.0",
                 "symfony/service-contracts": "^2.5|^3",
-                "symfony/yaml": "^6.4|^7.0"
+                "symfony/yaml": "^5.4|^6.0|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -18355,7 +18354,7 @@
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/config/tree/v7.0.8"
+                "source": "https://github.com/symfony/config/tree/v6.4.13"
             },
             "funding": [
                 {
@@ -18371,7 +18370,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-31T14:55:39+00:00"
+            "time": "2024-10-25T15:07:50+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -18991,32 +18990,33 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v7.1.6",
+            "version": "v6.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "b9f72ab14efdb6b772f85041fa12f820dee8d55f"
+                "reference": "bee9bfabfa8b4045a66bf82520e492cddbaffa66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/b9f72ab14efdb6b772f85041fa12f820dee8d55f",
-                "reference": "b9f72ab14efdb6b772f85041fa12f820dee8d55f",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/bee9bfabfa8b4045a66bf82520e492cddbaffa66",
+                "reference": "bee9bfabfa8b4045a66bf82520e492cddbaffa66",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
+                "php": ">=8.1",
+                "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/translation-contracts": "^2.5|^3.0"
             },
             "conflict": {
-                "symfony/config": "<6.4",
-                "symfony/console": "<6.4",
-                "symfony/dependency-injection": "<6.4",
+                "symfony/config": "<5.4",
+                "symfony/console": "<5.4",
+                "symfony/dependency-injection": "<5.4",
                 "symfony/http-client-contracts": "<2.5",
-                "symfony/http-kernel": "<6.4",
+                "symfony/http-kernel": "<5.4",
                 "symfony/service-contracts": "<2.5",
-                "symfony/twig-bundle": "<6.4",
-                "symfony/yaml": "<6.4"
+                "symfony/twig-bundle": "<5.4",
+                "symfony/yaml": "<5.4"
             },
             "provide": {
                 "symfony/translation-implementation": "2.3|3.0"
@@ -19024,17 +19024,17 @@
             "require-dev": {
                 "nikic/php-parser": "^4.18|^5.0",
                 "psr/log": "^1|^2|^3",
-                "symfony/config": "^6.4|^7.0",
-                "symfony/console": "^6.4|^7.0",
-                "symfony/dependency-injection": "^6.4|^7.0",
-                "symfony/finder": "^6.4|^7.0",
+                "symfony/config": "^5.4|^6.0|^7.0",
+                "symfony/console": "^5.4|^6.0|^7.0",
+                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                "symfony/finder": "^5.4|^6.0|^7.0",
                 "symfony/http-client-contracts": "^2.5|^3.0",
-                "symfony/http-kernel": "^6.4|^7.0",
-                "symfony/intl": "^6.4|^7.0",
+                "symfony/http-kernel": "^5.4|^6.0|^7.0",
+                "symfony/intl": "^5.4|^6.0|^7.0",
                 "symfony/polyfill-intl-icu": "^1.21",
-                "symfony/routing": "^6.4|^7.0",
+                "symfony/routing": "^5.4|^6.0|^7.0",
                 "symfony/service-contracts": "^2.5|^3",
-                "symfony/yaml": "^6.4|^7.0"
+                "symfony/yaml": "^5.4|^6.0|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -19065,7 +19065,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v7.1.6"
+                "source": "https://github.com/symfony/translation/tree/v6.4.13"
             },
             "funding": [
                 {
@@ -19081,7 +19081,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-28T12:35:13+00:00"
+            "time": "2024-09-27T18:14:25+00:00"
         },
         {
             "name": "tbachert/spi",
@@ -19318,12 +19318,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "drupalwxt/wxt": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
